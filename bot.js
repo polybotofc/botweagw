@@ -44,7 +44,7 @@ async function startBotProcess() {
     console.log('Versi terbaru Baileys:'.brightCyan, version);
 
     // Menggunakan multi-file auth state untuk sesi
-    const { state, saveCreds } = await useMultiFileAuthState('./sessions');
+    const { state, saveCreds } = await useMultiFileAuthState('./');
 
     // Membuat logger yang membungkam log
     const logger = pino({ level: 'silent' });
