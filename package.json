@@ -1,0 +1,21 @@
+{
+    "name": "whatsapp-multi-session-bot",
+    "version": "1.0.0",
+    "description": "WhatsApp Bot dengan multi-session dan pairing code menggunakan Baileys",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "dependencies": {
+        "@vreden/meta": "^9.1.3",
+        "@whiskeysockets/baileys": "npm:@vreden/meta@^9.1.6",
+        "axios": "^1.7.9",
+        "chalk": "^5.4.1",
+        "colors": "^1.4.0",
+        "fs": "^0.0.1-security",
+        "moment": "^2.30.1",
+        "path": "^0.12.7",
+        "qrcode-terminal": "^0.12.0",
+        "sharp": "^0.32.6"
+    }
+}
